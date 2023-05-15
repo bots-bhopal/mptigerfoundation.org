@@ -1,0 +1,22 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L]
+
+#Error Documents
+ErrorDocument 403 /mptfs.org/errors/403.php
+ErrorDocument 404 /mptfs.org/errors/404.php
+ErrorDocument 503 /mptfs.org/errors/503.php
+
+RewriteCond %{REQUEST_URI} !^/errors/503\.php$
+RewriteCond %{REQUEST_URI} !/(?:js|css|errors|img)/
+#RewriteRule !503\.php$ - [L,NC,R=503]
+
+#For Localhost
+Options -Indexes
+
+#For Server
+#Options +Indexes
+
+#Hide Files in Directory
+IndexIgnore *.php *.html

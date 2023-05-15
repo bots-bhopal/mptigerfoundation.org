@@ -1,0 +1,22 @@
+<?php
+return [
+    'become_volunteer_heading' => 'Become A Volunteer',
+    'btn_get_involved_cap' => 'Fill Form',
+    'about_para' => 'This is the offical website of MPTFS. It was formed by Madhya Pradesh State Government on 15th January 1997. The idea was to facilitate achieving the goal of wildlife conservation (with special emphasis on tiger) by ensuring participation from public and all other organizations committed for conservation.',
+    'quick_links_heading' => 'Quick Links',
+    'home' => 'Home',
+    'about' => 'About',
+    'blog' => 'Blog',
+    'gallery' => 'Gallery',
+    'contact' => 'Contact',
+    'download' => 'Downloads',
+    'contact_heading' => 'Contacts',
+    'contact_li_1' => 'O/o Chief Wildlife Warden, Third Floor, Pragati Bhawan, Indira Press Complex, MP Nagar, Bhopal-462011, M.P.',
+    'contact_li_2' => 'O/o PCCF Wildlife : 0755 2674318',
+    'contact_li_3' => 'mptigerfoundation@mp.gov.in',
+    'latest_news' => 'Latest News',
+    'mptfs' => 'MP TIGER FOUNDATION SOCIETY (MPTFS)',
+    'rights' => 'All Right Reserved',
+    'developed_by' => 'Developed by - ',
+    'bot' => 'Blue Ocean Tech Solutions Pvt. Ltd.',
+];

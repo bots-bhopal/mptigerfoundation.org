@@ -1,0 +1,24 @@
+/* Add here all your CSS customizations */
+#toast-container {
+  position: fixed;
+  top: 45%;
+  z-index: 999999;
+  pointer-events: none;
+}
+
+.toast-success {
+  background-color: #28a745 !important;
+}
+
+.toast-error {
+  background-color: #dc3545 !important;
+}
+
+.toast-top-right {
+  top: 15px;
+  right: 15px;
+}
+
+#toast-container > div {
+  opacity: 1;
+}
